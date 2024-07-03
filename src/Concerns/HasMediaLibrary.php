@@ -28,7 +28,7 @@ trait HasMediaLibrary
         $model = Flexible::getOriginModel() ?? $this->model;
 
         while ($model instanceof Layout) {
-            $model = $model->getMediaModel();
+            $model = $model->getCustomMediaModel();
         }
 
         if (is_null($model) || ! ($model instanceof HasMedia)) {
