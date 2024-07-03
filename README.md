@@ -20,7 +20,7 @@ See the full docs at [https://whitecube.github.io/nova-flexible-content](https:/
 ### Install
 
 ```
-composer require whitecube/nova-flexible-content
+composer require cv-chameleon/nova-flexible-content
 ```
 
 ### Usage
